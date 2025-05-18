@@ -64,7 +64,7 @@ const display = (fruitsToDisplay = fruits) => {
     // Заполняем данными
     li.innerHTML = `
       <div class="fruit__info">
-        <div>index: ${fruit.index}</div>
+        <div>index: ${i}</div>
         <div>kind: ${fruit.kind}</div>
         <div>color: ${fruit.color}</div>
         <div>weight: ${fruit.weight}</div>
